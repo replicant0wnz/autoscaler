@@ -17,32 +17,6 @@ steps:
   - go get
   - go test -v -cover ./...
 
-- name: test_postgres
-  pull: default
-  image: golang
-  volumes:
-  - name: deps
-    path: /go
-  commands:
-  - cd store
-  - go test -v
-  environment:
-    DATABASE_CONFIG: host=postgres user=postgres password=password dbname=test sslmode=disable
-    DATABASE_DRIVER: postgres
-
-- name: test_mysql
-  pull: default
-  image: golang
-  volumes:
-  - name: deps
-    path: /go
-  commands:
-  - cd store
-  - go test -v
-  environment:
-    DATABASE_CONFIG: "root:password@tcp(mysql:3306)/test?parseTime=true"
-    DATABASE_DRIVER: mysql
-
 - name: build
   pull: default
   image: golang
@@ -53,37 +27,16 @@ steps:
   - sh .drone.sh
 
 - name: publish
-  pull: default
   image: plugins/docker
   settings:
-    auto_tag: true
-    repo: drone/autoscaler
+    repo: viant/drone-autoscaler
+    username: replicant0wnz 
     password:
       from_secret: docker_password
-    username:
-      from_secret: docker_username
-  when:
-    event:
-    - push
-    - tag
+    tags:
+      - latest
+      - 1.0.${DRONE_BUILD_NUMBER}
 
 volumes:
 - name: deps
   temp: {}
-
-services:
-- name: postgres
-  pull: default
-  image: postgres:9
-  environment:
-    POSTGRES_DB: test
-    POSTGRES_PASSWORD: password
-
-- name: mysql
-  pull: default
-  image: mysql:5
-  environment:
-    MYSQL_DATABASE: test
-    MYSQL_ROOT_PASSWORD: password
-
-...

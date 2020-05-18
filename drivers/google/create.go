@@ -128,7 +128,7 @@ func (p *provider) Create(ctx context.Context, opts autoscaler.InstanceCreateOpt
 		Image:    p.image,
 		Region:   p.zone,
 		Size:     p.size,
-		Address:  resp.NetworkInterfaces[0].AccessConfigs[0].NatIP,
+		Address:  resp.NetworkInterfaces[0].NetworkIP,
 	}
 
 	logger.
