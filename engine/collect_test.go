@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	docker "docker.io/go-docker"
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/mocks"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/mocks"
 
 	"github.com/golang/mock/gomock"
 )

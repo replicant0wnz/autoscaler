@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 )
 
 func TestServer(t *testing.T) {

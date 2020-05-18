@@ -8,7 +8,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler/logger"
 
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/keypairs"
 	"golang.org/x/sync/errgroup"

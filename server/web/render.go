@@ -7,7 +7,7 @@ package web
 import (
 	"net/http"
 
-	"github.com/drone/autoscaler/server/web/template"
+	"github.com/replicant0wnz/autoscaler/server/web/template"
 )
 
 // render writes the template to the response body.

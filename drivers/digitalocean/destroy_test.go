@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/digitalocean/godo"
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 
 	"github.com/golang/mock/gomock"
 	"github.com/h2non/gock"

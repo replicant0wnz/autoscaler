@@ -5,7 +5,7 @@
 package metrics
 
 import (
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

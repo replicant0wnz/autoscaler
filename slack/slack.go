@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/config"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/config"
 
 	"github.com/bluele/slack"
 	"github.com/dustin/go-humanize"

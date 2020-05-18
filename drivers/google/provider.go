@@ -12,8 +12,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/drivers/internal/userdata"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/drivers/internal/userdata"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	compute "google.golang.org/api/compute/v1"

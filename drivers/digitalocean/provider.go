@@ -9,7 +9,7 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 
 	"github.com/digitalocean/godo"
 	"golang.org/x/oauth2"

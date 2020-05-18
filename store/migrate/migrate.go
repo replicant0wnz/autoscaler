@@ -1,9 +1,9 @@
 package ddl
 
 import (
-	"github.com/drone/autoscaler/store/migrate/mysql"
-	"github.com/drone/autoscaler/store/migrate/postgres"
-	"github.com/drone/autoscaler/store/migrate/sqlite"
+	"github.com/replicant0wnz/autoscaler/store/migrate/mysql"
+	"github.com/replicant0wnz/autoscaler/store/migrate/postgres"
+	"github.com/replicant0wnz/autoscaler/store/migrate/sqlite"
 
 	"github.com/jmoiron/sqlx"
 )

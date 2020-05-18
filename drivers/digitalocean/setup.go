@@ -9,7 +9,7 @@ import (
 	"errors"
 
 	"github.com/digitalocean/godo"
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler/logger"
 
 	"golang.org/x/sync/errgroup"
 )

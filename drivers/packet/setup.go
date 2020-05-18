@@ -8,7 +8,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler/logger"
 
 	"github.com/packethost/packngo"
 	"golang.org/x/sync/errgroup"

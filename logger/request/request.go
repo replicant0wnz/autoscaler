@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler/logger"
 	"github.com/go-chi/chi/middleware"
 	"github.com/sirupsen/logrus"
 )

@@ -7,8 +7,8 @@ package scaleway
 import (
 	"context"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/logger"
 
 	"github.com/scaleway/scaleway-sdk-go/api/instance/v1"
 	"github.com/scaleway/scaleway-sdk-go/scw"

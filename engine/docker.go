@@ -13,7 +13,7 @@ import (
 
 	docker "docker.io/go-docker"
 	"docker.io/go-docker/api"
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 )
 
 // clientFunc defines a builder funciton used to build and return

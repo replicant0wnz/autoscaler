@@ -4,7 +4,7 @@
 
 package digitalocean
 
-import "github.com/drone/autoscaler/drivers/internal/userdata"
+import "github.com/replicant0wnz/autoscaler/drivers/internal/userdata"
 
 var userdataT = userdata.Parse(`#cloud-config
 write_files:

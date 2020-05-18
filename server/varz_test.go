@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/drone/autoscaler/mocks"
+	"github.com/replicant0wnz/autoscaler/mocks"
 	"github.com/go-chi/chi"
 	"github.com/golang/mock/gomock"
 	"github.com/kr/pretty"

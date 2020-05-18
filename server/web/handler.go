@@ -9,8 +9,8 @@ package web
 import (
 	"net/http"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/logger/history"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/logger/history"
 )
 
 // HandleServers returns a http.HandlerFunc that displays a

@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/config"
-	"github.com/drone/autoscaler/logger"
-	"github.com/drone/autoscaler/metrics"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/config"
+	"github.com/replicant0wnz/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler/metrics"
 	"github.com/drone/drone-go/drone"
 )
 

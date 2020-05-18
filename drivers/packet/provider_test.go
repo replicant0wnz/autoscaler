@@ -7,7 +7,7 @@ package packet
 import (
 	"testing"
 
-	"github.com/drone/autoscaler/drivers/internal/userdata"
+	"github.com/replicant0wnz/autoscaler/drivers/internal/userdata"
 )
 
 func TestDefaults(t *testing.T) {

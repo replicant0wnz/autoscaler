@@ -9,9 +9,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/metrics"
-	"github.com/drone/autoscaler/mocks"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/metrics"
+	"github.com/replicant0wnz/autoscaler/mocks"
 
 	"github.com/golang/mock/gomock"
 )

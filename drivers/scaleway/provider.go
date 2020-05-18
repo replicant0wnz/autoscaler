@@ -8,10 +8,10 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/drone/autoscaler/drivers/internal/userdata"
+	"github.com/replicant0wnz/autoscaler/drivers/internal/userdata"
 	"github.com/scaleway/scaleway-sdk-go/scw"
 
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 )
 
 // provider implements a Scaleway provider.

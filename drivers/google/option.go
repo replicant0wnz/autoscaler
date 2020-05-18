@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/drone/autoscaler/drivers/internal/userdata"
+	"github.com/replicant0wnz/autoscaler/drivers/internal/userdata"
 
 	"google.golang.org/api/compute/v1"
 )

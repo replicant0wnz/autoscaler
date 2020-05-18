@@ -8,7 +8,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 	"google.golang.org/api/googleapi"
 )
 

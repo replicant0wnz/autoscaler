@@ -10,7 +10,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/drone/autoscaler/config"
+	"github.com/replicant0wnz/autoscaler/config"
 	"github.com/drone/drone-go/drone"
 
 	"github.com/h2non/gock"

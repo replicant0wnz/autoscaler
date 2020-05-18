@@ -8,7 +8,7 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler/logger"
 
 	compute "google.golang.org/api/compute/v1"
 )

@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/drone/autoscaler/mocks"
+	"github.com/replicant0wnz/autoscaler/mocks"
 	"github.com/golang/mock/gomock"
 )
 

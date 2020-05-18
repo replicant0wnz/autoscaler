@@ -7,7 +7,7 @@ package packet
 import (
 	"context"
 
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 )
 
 func (p *provider) Destroy(ctx context.Context, instance *autoscaler.Instance) error {

@@ -8,7 +8,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler/logger"
 
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"golang.org/x/sync/errgroup"

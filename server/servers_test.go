@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/config"
-	"github.com/drone/autoscaler/mocks"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/config"
+	"github.com/replicant0wnz/autoscaler/mocks"
 	"github.com/go-chi/chi"
 	"github.com/golang/mock/gomock"
 	"github.com/kr/pretty"

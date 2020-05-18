@@ -7,8 +7,8 @@ package openstack
 import (
 	"context"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/logger"
 
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/floatingips"
 	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"

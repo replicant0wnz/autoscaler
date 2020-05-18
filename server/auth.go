@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/drone/autoscaler/config"
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler/config"
+	"github.com/replicant0wnz/autoscaler/logger"
 	"github.com/drone/drone-go/drone"
 
 	"golang.org/x/oauth2"

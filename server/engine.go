@@ -7,7 +7,7 @@ package server
 import (
 	"net/http"
 
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 )
 
 // HandleEnginePause returns an http.HandlerFunc that pauses

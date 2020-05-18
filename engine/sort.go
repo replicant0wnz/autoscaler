@@ -4,7 +4,7 @@
 
 package engine
 
-import "github.com/drone/autoscaler"
+import "github.com/replicant0wnz/autoscaler"
 
 // byCreated sorts the server list by created date.
 type byCreated []*autoscaler.Server

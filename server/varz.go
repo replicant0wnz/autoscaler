@@ -7,7 +7,7 @@ package server
 import (
 	"net/http"
 
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 )
 
 type varz struct {

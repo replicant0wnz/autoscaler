@@ -7,7 +7,7 @@ package scaleway
 import (
 	"io/ioutil"
 
-	"github.com/drone/autoscaler/drivers/internal/userdata"
+	"github.com/replicant0wnz/autoscaler/drivers/internal/userdata"
 	"github.com/scaleway/scaleway-sdk-go/scw"
 )
 

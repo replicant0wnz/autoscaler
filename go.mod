@@ -1,4 +1,4 @@
-module github.com/drone/autoscaler
+module github.com/replicant0wnz/autoscaler
 
 go 1.12
 

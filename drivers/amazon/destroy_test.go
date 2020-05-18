@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 
 	"github.com/h2non/gock"
 )

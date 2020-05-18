@@ -5,7 +5,7 @@
 package openstack
 
 import (
-	"github.com/drone/autoscaler/drivers/internal/userdata"
+	"github.com/replicant0wnz/autoscaler/drivers/internal/userdata"
 	"github.com/gophercloud/gophercloud"
 	"io/ioutil"
 )

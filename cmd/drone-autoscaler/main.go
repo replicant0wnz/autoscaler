@@ -11,25 +11,25 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/config"
-	"github.com/drone/autoscaler/drivers/amazon"
-	"github.com/drone/autoscaler/drivers/digitalocean"
-	"github.com/drone/autoscaler/drivers/google"
-	"github.com/drone/autoscaler/drivers/hetznercloud"
-	"github.com/drone/autoscaler/drivers/openstack"
-	"github.com/drone/autoscaler/drivers/packet"
-	"github.com/drone/autoscaler/drivers/scaleway"
-	"github.com/drone/autoscaler/engine"
-	"github.com/drone/autoscaler/logger"
-	"github.com/drone/autoscaler/logger/history"
-	"github.com/drone/autoscaler/logger/request"
-	"github.com/drone/autoscaler/metrics"
-	"github.com/drone/autoscaler/server"
-	"github.com/drone/autoscaler/server/web"
-	"github.com/drone/autoscaler/server/web/static"
-	"github.com/drone/autoscaler/slack"
-	"github.com/drone/autoscaler/store"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/config"
+	"github.com/replicant0wnz/autoscaler/drivers/amazon"
+	"github.com/replicant0wnz/autoscaler/drivers/digitalocean"
+	"github.com/replicant0wnz/autoscaler/drivers/google"
+	"github.com/replicant0wnz/autoscaler/drivers/hetznercloud"
+	"github.com/replicant0wnz/autoscaler/drivers/openstack"
+	"github.com/replicant0wnz/autoscaler/drivers/packet"
+	"github.com/replicant0wnz/autoscaler/drivers/scaleway"
+	"github.com/replicant0wnz/autoscaler/engine"
+	"github.com/replicant0wnz/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler/logger/history"
+	"github.com/replicant0wnz/autoscaler/logger/request"
+	"github.com/replicant0wnz/autoscaler/metrics"
+	"github.com/replicant0wnz/autoscaler/server"
+	"github.com/replicant0wnz/autoscaler/server/web"
+	"github.com/replicant0wnz/autoscaler/server/web/static"
+	"github.com/replicant0wnz/autoscaler/slack"
+	"github.com/replicant0wnz/autoscaler/store"
 	"github.com/drone/drone-go/drone"
 	"github.com/drone/signal"
 
@@ -47,7 +47,7 @@ import (
 )
 
 var (
-	source  = "https://github.com/drone/autoscaler.git"
+	source  = "https://github.com/replicant0wnz/autoscaler.git"
 	version string
 	commit  string
 )

@@ -8,8 +8,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/logger"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"

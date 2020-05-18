@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 )
 
 func TestUserdata(t *testing.T) {

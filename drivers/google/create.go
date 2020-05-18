@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/drone/autoscaler"
-	"github.com/drone/autoscaler/logger"
+	"github.com/replicant0wnz/autoscaler"
+	"github.com/replicant0wnz/autoscaler/logger"
 
 	"google.golang.org/api/compute/v1"
 	"google.golang.org/api/googleapi"

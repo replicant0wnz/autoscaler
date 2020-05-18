@@ -9,7 +9,7 @@ import (
 	"database/sql"
 	"time"
 
-	ddl "github.com/drone/autoscaler/store/migrate"
+	ddl "github.com/replicant0wnz/autoscaler/store/migrate"
 
 	"github.com/jmoiron/sqlx"
 )

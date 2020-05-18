@@ -8,7 +8,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/drone/autoscaler"
+	"github.com/replicant0wnz/autoscaler"
 )
 
 func TestSortByCreated(t *testing.T) {
