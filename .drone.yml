@@ -7,16 +7,6 @@ platform:
   arch: amd64
 
 steps:
-- name: test
-  pull: default
-  image: golang
-  volumes:
-  - name: deps
-    path: /go
-  commands:
-  - go get
-  - go test -v -cover ./...
-
 - name: build
   pull: default
   image: golang
