@@ -231,6 +231,8 @@ poller:
 			},
 		}, nil, "agent")
 
+  time.Sleep(120 * time.Second)
+
 	if err != nil {
 		i.metrics.IncrServerSetupError()
 		logger.WithField("image", i.image).
