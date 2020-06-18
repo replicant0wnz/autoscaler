@@ -231,6 +231,8 @@ poller:
 			},
 		}, nil, "agent")
 
+	logger.WithField("image", i.image).
+		Debugln("Sleeping for 120")
   time.Sleep(120 * time.Second)
 
 	if err != nil {
