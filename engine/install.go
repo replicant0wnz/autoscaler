@@ -19,10 +19,10 @@ import (
 	"github.com/replicant0wnz/autoscaler/logger"
 	"github.com/replicant0wnz/autoscaler/metrics"
 
-	docker "docker.io/go-docker"
-	"docker.io/go-docker/api/types"
-	"docker.io/go-docker/api/types/container"
-	"docker.io/go-docker/api/types/mount"
+	"github.com/docker/docker/api/types"
+	"github.com/docker/docker/api/types/container"
+	"github.com/docker/docker/api/types/mount"
+	docker "github.com/docker/docker/client"
 )
 
 type installer struct {

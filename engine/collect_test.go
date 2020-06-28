@@ -10,10 +10,10 @@ import (
 	"io"
 	"testing"
 
-	docker "docker.io/go-docker"
 	"github.com/replicant0wnz/autoscaler"
 	"github.com/replicant0wnz/autoscaler/mocks"
 
+	docker "github.com/docker/docker/client"
 	"github.com/golang/mock/gomock"
 )
 

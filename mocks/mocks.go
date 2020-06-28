@@ -4,9 +4,9 @@
 
 package mocks
 
-//go:generate mockgen -package=mocks -destination=mock_engine.go   github.com/replicant0wnz/autoscaler Engine
-//go:generate mockgen -package=mocks -destination=mock_server.go   github.com/replicant0wnz/autoscaler ServerStore
-//go:generate mockgen -package=mocks -destination=mock_provider.go github.com/replicant0wnz/autoscaler Provider
-//go:generate mockgen -package=mocks -destination=mock_metrics.go  github.com/replicant0wnz/autoscaler/metrics Collector
+//go:generate mockgen -package=mocks -destination=mock_engine.go   github.com/drone/autoscaler Engine
+//go:generate mockgen -package=mocks -destination=mock_server.go   github.com/drone/autoscaler ServerStore
+//go:generate mockgen -package=mocks -destination=mock_provider.go github.com/drone/autoscaler Provider
+//go:generate mockgen -package=mocks -destination=mock_metrics.go  github.com/drone/autoscaler/metrics Collector
 //go:generate mockgen -package=mocks -destination=mock_drone.go    github.com/drone/drone-go/drone Client
-//go:generate mockgen -package=mocks -destination=mock_docker.go   docker.io/go-docker APIClient
+//go:generate mockgen -package=mocks -destination=mock_docker.go   github.com/docker/docker/client APIClient
